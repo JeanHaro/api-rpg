@@ -1,0 +1,31 @@
+{
+  "name": "01-tareas-cli",
+  "version": "0.1.0",
+  "description": "Calculadora interactiva en terminal con separación de lógica y presentación.",
+  "license": "MIT",
+  "author": "Jean Haro",
+  "type": "commonjs",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.1.1",
+      "onFail": "download"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
