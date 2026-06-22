@@ -1,5 +1,5 @@
 {
-  "name": "01-tareas-cli",
+  "name": "api-rpg",
   "version": "0.1.0",
   "description": "API REST construida con **TypeScript + Express** para gestionar personajes de un juego RPG.",
   "license": "MIT",
