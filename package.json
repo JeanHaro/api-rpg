@@ -1,7 +1,7 @@
 {
   "name": "01-tareas-cli",
   "version": "0.1.0",
-  "description": "Calculadora interactiva en terminal con separación de lógica y presentación.",
+  "description": "API REST construida con **TypeScript + Express** para gestionar personajes de un juego RPG.",
   "license": "MIT",
   "author": "Jean Haro",
   "type": "commonjs",
